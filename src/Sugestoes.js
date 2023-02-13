@@ -56,7 +56,7 @@ export default function Sugestoes(){
 
     <div class="sugestao">
       <div class="usuario">
-        <img src="/src/assets/smallcutecats.svg" alt="smallcutecats"/>
+        <img src="assets/assets/smallcutecats.svg" alt="smallcutecats"/>
         <div class="texto">
           <div class="nome">smallcutecats</div>
           <div class="razao">Segue você</div>
