@@ -90,9 +90,7 @@ export default function Posts(){
       </div>
 
       <div class="conteudo">
-        <img onclick={() =>
-
-        } data-test="post-image" src="assets/dog.svg" alt="dog" />
+        <img data-test="post-image" src="assets/dog.svg" alt="dog" />
       </div>
 
       <div class="fundo">
