@@ -2,9 +2,6 @@ import {useState} from "react";
 
 export default function Posts(){
 
-    function likePost(){
-        if(color == ''){}
-    }
     return (
         <div class="posts">
     <div class="post" data-test="post">
