@@ -4,7 +4,7 @@ export default function Usuario(){
     <div class="texto">
       <span>
         <strong>catanacomics</strong>
-        <ion-icon name="pencil"></ion-icon>
+        <ion-icon onclick="changeName()" name="pencil"></ion-icon>
       </span>
     </div>
   </div>);
