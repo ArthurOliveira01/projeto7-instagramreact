@@ -1,4 +1,10 @@
+import {useState} from "react";
+
 export default function Posts(){
+
+    function likePost(){
+        if(color == '')
+    }
     return (
         <div class="posts">
     <div class="post" data-test="post">
@@ -84,12 +90,14 @@ export default function Posts(){
       </div>
 
       <div class="conteudo">
-        <img data-test="post-image" src="assets/dog.svg" alt="dog" />
+        <img onclick={() =>
+
+        } data-test="post-image" src="assets/dog.svg" alt="dog" />
       </div>
 
       <div class="fundo">
         <div class="acoes">
-          <div onclick="like()">
+          <div>
             <ion-icon data-test="like-post" name="heart-outline"></ion-icon>
             <ion-icon name="chatbubble-outline"></ion-icon>
             <ion-icon name="paper-plane-outline"></ion-icon>
