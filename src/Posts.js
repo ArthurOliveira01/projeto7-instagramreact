@@ -3,7 +3,7 @@ import {useState} from "react";
 export default function Posts(){
 
     function likePost(){
-        if(color == '')
+        if(color == ''){}
     }
     return (
         <div class="posts">
