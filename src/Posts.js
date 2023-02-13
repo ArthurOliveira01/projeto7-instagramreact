@@ -54,8 +54,8 @@ export default function Posts(){
 
       <div class="fundo">
         <div class="acoes">
-          <div>
-            <ion-icon name="heart-outline" onclick="like()"></ion-icon>
+          <div onclick="like()">
+            <ion-icon name="heart-outline"></ion-icon>
             <ion-icon name="chatbubble-outline"></ion-icon>
             <ion-icon name="paper-plane-outline"></ion-icon>
           </div>
