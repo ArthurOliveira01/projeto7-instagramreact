@@ -22,11 +22,11 @@ export default function Usuario(){
     
 
     return(<div class="usuario">
-    <img data-test="profile-image" onClick="changePic()" src={profilePic} alt="imagem de perfil"/>
+    <img data-test="profile-image" onClick={changePic} src={userPic} alt="imagem de perfil"/>
     <div class="texto">
       <span>
         <strong>{userName}</strong>
-        <ion-icon onClick="changeName()" name="pencil"></ion-icon>
+        <ion-icon onClick={changeName} name="pencil"></ion-icon>
       </span>
     </div>
   </div>);
