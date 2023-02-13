@@ -305,4 +305,6 @@
     color: black;
   }
   
-  
+.liked ion-icon{
+  background-color: red;
+}
